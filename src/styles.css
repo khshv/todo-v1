@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  align-content: center;
+  margin: 4rem auto;
+  justify-content: center;
+  border: 3px solid green;
+  padding: 2rem 4rem 7rem 4rem;
+  background: #fff;
+}
+#root {
+  display: grid;
+}
+body {
+  background: #b74888;
+}
+input[type="text"] {
+  padding: 0.6rem;
+  border-radius: 4%;
+  font-size: 19px;
+  border: 0.1;
+}
+button {
+  padding: 0.6rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 4%;
+  font-size: 19px;
+}
+ul {
+  display: grid;
+  justify-content: center;
+  font-size: 19px;
+  padding: 0;
+}
+li {
+  align-self: start;
+  text-align: start;
+  /* list-style: none; */
+}
